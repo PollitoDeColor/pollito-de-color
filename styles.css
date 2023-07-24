@@ -1,0 +1,20 @@
+/* styles.css */
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+#pollito {
+  width: 100px; /* Ajusta el tamaño del pollito según tus preferencias */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  user-select: none; /* Evitar selección del pollito */
+}
+
+#papas {
+  width: 30px; /* Ajusta el tamaño de las papas según tus preferencias */
+  position: absolute;
+  user-select: none; /* Evitar selección de las papas */
+}
